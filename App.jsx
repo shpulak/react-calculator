@@ -74,10 +74,10 @@ class App extends Component {
                     <div className="row" style={{marginTop:'20px', marginLeft:'0px'}}>
                         <div className="col-8">
                             <div className="row">
-                                <input className="form-control form-control-lg" id='box1' type="text" placeholder="Enter 1st Number" onChange={this.onChange} value={this.state.val1} />
+                                <input className="form-control form-control-lg" id='box1' type="Number" placeholder="Enter 1st Number" onChange={this.onChange} value={this.state.val1} />
                             </div>
                             <div className="row">
-                                <input className="form-control form-control-lg" style={{marginTop:'10px'}} id='box2' type="text" placeholder="Enter 2nd Number" onChange={this.onChange} value={this.state.val2} />
+                                <input className="form-control form-control-lg" style={{marginTop:'10px'}} id='box2' type="Number" placeholder="Enter 2nd Number" onChange={this.onChange} value={this.state.val2} />
                             </div>
                             <div className="row">
                                 <div className="col-4 mr-auto ml-auto" style={{marginTop:'20px'}}>
